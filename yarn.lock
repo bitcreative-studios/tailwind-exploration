@@ -159,6 +159,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@tailwindcss/line-clamp@npm:^0.2.0":
+  version: 0.2.0
+  resolution: "@tailwindcss/line-clamp@npm:0.2.0"
+  checksum: 6c1d2938eb7aad6ddee94f5e70f451a7beed9c7b2535d6e2a82ded592a188a27ce7a4f21869ebd733c5a23cecfa72fe07098df97af7eb163c994e19f7d9b17f4
+  languageName: node
+  linkType: hard
+
 "@types/cacheable-request@npm:^6.0.1":
   version: 6.0.1
   resolution: "@types/cacheable-request@npm:6.0.1"
@@ -7077,6 +7084,7 @@ fsevents@^1.2.7:
   version: 0.0.0-use.local
   resolution: "tailwind-exploration@workspace:."
   dependencies:
+    "@tailwindcss/line-clamp": ^0.2.0
     "@yarnpkg/pnpify": ^2.4.0
     autoprefixer: latest
     commitizen: ^4.2.3

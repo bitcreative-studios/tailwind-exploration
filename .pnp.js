@@ -37,6 +37,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {
           "packageLocation": "./",
           "packageDependencies": [
+            ["@tailwindcss/line-clamp", "npm:0.2.0"],
             ["@yarnpkg/pnpify", "virtual:14040ae2a8ba1d8c33be01dbc26e37a3e2530c1bb389fcefb5a76f60191c2e9cb25feabc7bb72693dceb7a091df0671d0301c7fcf9882f1c3503346e0b9efc27#npm:2.4.0"],
             ["autoprefixer", "virtual:14040ae2a8ba1d8c33be01dbc26e37a3e2530c1bb389fcefb5a76f60191c2e9cb25feabc7bb72693dceb7a091df0671d0301c7fcf9882f1c3503346e0b9efc27#npm:10.2.4"],
             ["commitizen", "npm:4.2.3"],
@@ -231,6 +232,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@szmarczak/http-timer", "npm:4.0.5"],
             ["defer-to-connect", "npm:2.0.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@tailwindcss/line-clamp", [
+        ["npm:0.2.0", {
+          "packageLocation": "./.yarn/cache/@tailwindcss-line-clamp-npm-0.2.0-d2565bd941-6c1d2938eb.zip/node_modules/@tailwindcss/line-clamp/",
+          "packageDependencies": [
+            ["@tailwindcss/line-clamp", "npm:0.2.0"]
           ],
           "linkType": "HARD",
         }]
@@ -8228,6 +8238,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["tailwind-exploration", "workspace:."],
+            ["@tailwindcss/line-clamp", "npm:0.2.0"],
             ["@yarnpkg/pnpify", "virtual:14040ae2a8ba1d8c33be01dbc26e37a3e2530c1bb389fcefb5a76f60191c2e9cb25feabc7bb72693dceb7a091df0671d0301c7fcf9882f1c3503346e0b9efc27#npm:2.4.0"],
             ["autoprefixer", "virtual:14040ae2a8ba1d8c33be01dbc26e37a3e2530c1bb389fcefb5a76f60191c2e9cb25feabc7bb72693dceb7a091df0671d0301c7fcf9882f1c3503346e0b9efc27#npm:10.2.4"],
             ["commitizen", "npm:4.2.3"],

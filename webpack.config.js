@@ -5,7 +5,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 const isDevMode = process.env.NODE_ENV !== 'production'
 module.exports = {
   context: path.resolve(__dirname, 'src'),
-  entry: './',
+  entry: '.',
   mode: isDevMode ? 'development' : 'production',
   module: {
     rules: [

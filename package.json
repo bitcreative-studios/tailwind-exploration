@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/bitwhys/tailwind-exploration#readme",
   "dependencies": {
+    "@tailwindcss/line-clamp": "^0.2.0",
     "@yarnpkg/pnpify": "^2.4.0",
     "tailwindcss": "latest",
     "webpack": "^5.22.0",
